@@ -1,0 +1,160 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+#title{
+
+  text-align: center;
+  text-align: left;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+  padding-bottom: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+.section-subheading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+
+
+
+.container-fluid{
+  padding:3% 15% 7%;
+  padding-bottom: 250px;
+
+}
+.iphoneimg{
+  position: absolute;
+  width:60%;
+  transform: rotate(20deg);
+
+}
+
+/* scetions */
+
+.coloured-section{
+  color:#fff;
+  background-color: #ff4b5c;
+}
+
+.white-section{
+  background-color: white;
+}
+   /* FEATURES SECTION */
+
+#features{
+  padding:10% 15%;
+
+  position: relative;
+  z-index: 1;
+
+}
+
+
+.icon{
+  color: #fe7171;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4b5c;
+}
+/* TESTIMONIAL SECTION */
+
+#testimonials{
+
+background-color: #fe7171;
+}
+.testimonial-text{
+  line-height: 1.5;
+
+  font-size: 3rem;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+.dog{
+  border-radius: 100%;
+  width:30%;
+  margin-right: 15px;
+}
+.lady-img{
+  border-radius: 100%;
+  width:30%;
+  margin-right: 15px;
+}
+
+#press{
+  background-color:#fe7171;
+  padding-bottom: 5%;
+
+}
+.press-logo{
+  width:15%;
+  margin:10px 20px 10px 20px;
+}
+
+  /* PRICING */
+
+#pricing{
+  padding:120px;
+}
+
+.card-header{
+  background-color: #ff4b5c;
+}
+.price-text{
+  line-height: 1.5;
+
+  font-size: 3rem;
+}
+
+      /* CTA SECTION */
+#cta{
+
+  padding: 100px 0 100px 0;
+}
+
+.button1{
+  margin-right:20px;
+}
+.find{
+  margin-bottom: 50px;
+  color: white;
+  padding: 7% 15%;
+}
+#footer{
+
+  margin-top: 30px;
+  padding: 4% 15%;
+}
+.social-media{
+  margin: 10px 5px;
+}
+.copyright{
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+@media (max-width:1028px ){
+  .iphoneimg{
+    position: static;
+    transform: rotate(0);
+
+  }
+
+}
